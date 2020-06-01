@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="news.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+      <h1 class="display-4 font-weight-bold text-uppercase">Today's News</h1>
+      <!-- <a class="navbar-brand text-uppercase font-weight-bolder h1 text-black" href="#">Today's News</a> -->
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"
+          ></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-danger font-weight-bold" href="#"
+              >Latest News <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger font-weight-bold" href="#"
+              >World <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger font-weight-bold" href="#"
+              >Politics <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger font-weight-bold" href="#"
+              >Sports <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger font-weight-bold" href="#"
+              >Entertainment <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li> -->
+        </ul>
+      <section id="sweather">
+        <h5>Weather Details</h5>
+        <div id="search" class="col col-lg-3">
+      
+          <form class="form-inline my-1 my-lg-0">
+            <input id="int" class="form-control mr-sm-1"
+              type="search"
+              placeholder="Search"
+            />
+            <button id="sbtn" class="btn btn-outline-success my-1 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+          
+        </div>
+        <section id="forecast"> </section>
+      </section>       
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">  
+      <h2 class=" font-weight-bold">COVID-19 Updates</h2>
+      <div id="ccontainer" class="container">
+        <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+      </div>
+    </div>
+
+    <section >
+      <h4 class="headh4 font-weight-bold">Latest Updates</h4>
+      <div id="headsect"></div>
+    </section>
+    
+
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4 font-weight-bold">
+          <h3>Sports Updates</h3>
+          <div id="template1"></div>
+        </div>
+
+        <div  class="col-md-4 font-weight-bold">
+          <h3>Bussiness</h3>
+          <div id="template2"></div>
+      </div>
+
+           <div  class="col-md-4 font-weight-bold">
+              <h3>Entertainment</h3>
+              <div id="template3">
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/headline.js"></script>
+<script src="js/covid.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/sports.js"></script>
+<script src="js/bussiness.js"></script>
+<script src="js/techno.js"></script>
+  </body>
+</html>

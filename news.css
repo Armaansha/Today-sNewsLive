@@ -1,0 +1,198 @@
+.navbar-brand{
+    font-size: 25px !important;
+}
+
+.collapse{
+  position: relative;
+  top: 11px;
+  left: 12px;
+}
+
+
+.nav-link{
+    font-size: 20px !important;
+    /* line-height: 14px; */
+}
+
+#nav {
+    background-color: #4e4e4e !important;
+    height: 110px;
+   
+}
+
+#sportblock{
+    margin: 12px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px gainsboro;
+    border: none;
+    border-radius: 4px;
+    width: 350px;
+    height: 250px;
+    font-weight: 600;
+}
+
+#imgs{
+    height: 120px;
+    width: 270px;
+    margin: 10px;
+}
+
+#imgs img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 4px; */
+}
+
+
+
+
+/* slider */
+#headsect{
+    display: flex;
+flex-flow: row;
+overflow-x: scroll;
+color: black;
+/* font-family: 'sans-serif'; */
+padding: 3px;
+font-weight: 600;
+margin: 0px !important;
+}
+
+#headblock{
+    margin-top: 0px;
+    margin: 8px;
+    padding: 4px;
+    box-shadow: 4px 4px 4px gainsboro;
+    border: none;
+    border-radius: 4px;
+    width: 420px;
+    height: 300px;
+}
+
+#imgh{
+    height: 140px;
+    width: 190px;
+    margin: 10px;
+}
+
+#imgh img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 4px; */
+}
+
+
+#ccontainer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 15px !important;
+    
+    margin-left: 90px !important;
+    margin-right: 0px !important;
+    padding-left: 25px;
+    
+}
+
+
+#ccontainer h2{
+    margin-left: 35px;
+}
+
+.jumbotron{
+    height: 130px !important;
+    padding: 0px !important;
+    margin: 0 !important;
+}
+
+.headh4{
+    margin: 0px;
+}
+
+#sweather{
+    height: 100px;
+    width: 300px;
+    position: fixed;
+    right: 30px;
+    top: 5px;
+    background-color: #4e4e4e;
+    cursor: pointer;
+    opacity: 0.7;
+    color: #000000;
+ /* pointer-events: none; */
+border-radius: 5px;
+}
+
+#int{
+    /* pointer-events: auto; */
+    height: 26px;
+    font-size: 15px;  
+      border-radius: 4px;
+}
+
+#sbtn{
+    height: 27px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.4;
+    border-radius: 4px;
+}
+
+#sweather h5{
+    font-weight: 1000px !important;
+}
+
+.form-inline{
+    display: flex !important;
+    flex-flow: row !important;
+}
+
+#sweather:hover {
+    background-color:#4e4e4e !important;
+    height: 380px;
+    opacity: unset;
+}
+
+#forecast{
+
+    padding: 3px;
+    height: 313px !important;
+    width: 144px !important;
+    position: relative;
+    left: 35px;
+    margin: 3px;
+}
+
+#wimg{
+    height: 161px !important;
+    width: 160px !important;
+    margin-left: 23px;
+    padding: 0px;
+}
+
+.card-body{
+    padding: 5px !important;
+}
+
+#witem{
+    margin: 0px;
+    padding: 0px;
+    width: 220px !important;
+}
+/* #witem div{
+    width: 80px !important;
+} */
+#witem p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: cornsilk;
+    font-weight: 800;
+    font-size: 25px;
+}
+#wimg img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
